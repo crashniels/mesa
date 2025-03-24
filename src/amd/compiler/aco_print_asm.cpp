@@ -99,6 +99,8 @@ to_clrx_device_name(amd_gfx_level gfx_level, radeon_family family)
    case GFX7:
       switch (family) {
       case CHIP_BONAIRE: return "bonaire";
+      case CHIP_LIVERPOOL: return "bonaire";
+      case CHIP_GLADIUS: return "bonaire";
       case CHIP_KAVERI: return "gfx700";
       case CHIP_HAWAII: return "hawaii";
       default: return nullptr;
